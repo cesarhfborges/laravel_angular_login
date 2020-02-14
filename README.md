@@ -1,29 +1,26 @@
-# Angular-8-Laravel-6-user-Login-token-authentication
-## Angular 8+ and Laravel 6+ token based User Authentications For Beginner
+# Angular-8 + Laravel-6
+## Projeto Base com login via api
 
 This is a Angular 8.* and Laravel 6.X admin panel starter project with Token based authentication, Angular Lazyloading, Server Side Error handling, Reactive Forms and Laravel CORS managing.
 
-# Installation laravelAngularApi
-It is a full Laravel project that you should use as a starter project and implement your own functions.
+# Instalação Laravel
 
-* Clone the repository with git clone
-* Copy .env.example file to .env and edit database credentials there
-* Run `composer install`
-* Run `php artisan key:generate`
-* Run `php artisan migrate`
-* Run `php artisan passport:install`
+* Copie .env.example .env pre-encha seus dados do banco de dados
+* Exec `composer install`
+* Exec `php artisan key:generate`
+* Exec `php artisan migrate`
+* Exec `php artisan passport:install`
 * That's it: http://localhost/laravelAngularApi/public/(Run on any localhost server)
 
-# Installation AngularUI
-It is a full Laravel project that you should use as a starter project and implement your own functions.
+# Installation Angular
 
-* Clone the repository with git clone
-* Install NodeJs from NodeJs Official Page.
-* Open Terminal
-* Go to your file project
-* Make sure you have installed Angular CLI already. If not, please install.
-* Run in terminal: npm install
-* Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+* Requisitos
+ - NodeJS, biblioteca Angular Global 
+* Exec: npm install
+* Exec ng serve para executar o projeto em desenvolvimento. 
+ - URL -> http://localhost:4200/
+
+#### Imagens do Template Front
 
 # Home Page
 ![picture alt](https://github.com/Mahanteshkumbar/Angular-8-Laravel-6-user-Login/blob/master/screenshots/Token%20Auth%20Laravel%20and%20Angular.png)
